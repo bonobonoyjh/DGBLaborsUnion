@@ -23,6 +23,7 @@
     </style>
     <script>
         var callAPI = (firstname, lastname)=>{
+            alert("teset");
             var myHeaders = new Headers();
             myHeaders.append("Content-Type", "application/json");
             var raw = JSON.stringify({"firstname":firstname, "lastname":lastname});
